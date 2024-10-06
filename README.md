@@ -1,6 +1,7 @@
 # PayU - Money Transfer Application
 
-![PayU Logo](https://github.com/user-attachments/assets/e2fb7adf-3dc7-4a7c-9bc2-6d45019373da)
+![image](https://github.com/user-attachments/assets/40aee9fa-d543-41e3-90d1-6885503fde30)
+
 
 Welcome to **PayU**, a secure and seamless money transfer application built using **Next.js**. This project combines modern frontend and backend technologies to create an efficient financial transaction platform.
 
