@@ -1,81 +1,40 @@
-# Turborepo starter
+# PayU - Money Transfer Application
 
-This is an official starter Turborepo.
+![image](https://github.com/user-attachments/assets/40aee9fa-d543-41e3-90d1-6885503fde30)
 
-## Using this example
 
-Run the following command:
+Welcome to **PayU**, a secure and seamless money transfer application built using **Next.js**. This project combines modern frontend and backend technologies to create an efficient financial transaction platform.
 
-```sh
-npx create-turbo@latest
-```
+## 📋 Project Overview
 
-## What's inside?
+**PayU** offers a smooth and secure experience for transferring money, leveraging a robust tech stack that ensures reliability and scalability. The application is designed to be highly modular, adaptable to future enhancements, and follows best practices for development and deployment.
 
-This Turborepo includes the following packages/apps:
+### Key Technologies:
 
-### Apps and Packages
+- **Frontend**: Next.js (React)
+- **Backend**: Next.js API Routes
+- **Authentication**: NextAuth.js
+- **Database**: PostgreSQL
+- **Deployment**: Vercel
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+---
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## 🚀 Features
 
-### Utilities
+- Secure authentication with **NextAuth**
+- Scalable backend powered by **Next.js API Routes**
+- Fast and efficient UI built with **Next.js**
+- Persistent storage using **PostgreSQL**
+- Deployed to **Vercel** for easy CI/CD and fast performance
 
-This Turborepo has some additional tools already setup for you:
+## 📂 Project Structure
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+The project is modular and easy to extend. Modules include:
 
-### Build
+- **Common**: Reusable utilities and components
+- **UI**: Frontend user interface components
+- **Backend**: API routes and database logic
 
-To build all apps and packages, run the following command:
+_Detailed module structure will be updated soon._
 
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+---
